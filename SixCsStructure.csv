@@ -1,0 +1,85 @@
+Code,Concepts,SubCategory,Six C (Categories),Qtd
+discussions of developers community influences the adoption of modern features,Community-Driven Adoption,Drivers for Source Code Rejuvenation,Causes,1
+Minimizing dependency on third-party libraries,Dependency and Architectural Simplification,Drivers for Source Code Rejuvenation,Causes,1
+Framework/libraries dependencies motivate SCR efforts,Dependency and Framework Pressure,Drivers for Source Code Rejuvenation,Causes,1
+language version support discontinuity,Language Evolution Enforcement,Drivers for Source Code Rejuvenation,Causes,1
+bug fixes in the language implementation,Language Evolution Enforcement,Drivers for Source Code Rejuvenation,Causes,1
+Avoiding system obsolescence,Preventing System Obsolescence,Drivers for Source Code Rejuvenation,Causes,1
+Relevance of regression/automated testing,Availability of Automated and Regression Testing,Conditionally Factors,Conditions,
+Lack of retrocompatibility might hinder SCR efforts,Compatibility & Legacy Constraints,Challenges & Impediments,Conditions,1
+Backward compatibility constraints hindering SCR,Compatibility & Legacy Constraints,Challenges & Impediments,Conditions,1
+Transpilation overhead constraining adoption,Compatibility & Legacy Constraints,Challenges & Impediments,Conditions,
+application domain may influence SCR efforts,Contextual & Domain Factors,Conditionally Factors,Conditions,1
+SCR is a non-trivial effort,"Effort, Cost & Practical Constraints",Challenges & Impediments,Conditions,1
+Version gap increases rejuvenation cost,"Effort, Cost & Practical Constraints",Challenges & Impediments,Conditions,1
+Project complexity might hinder SCR efforts,"Effort, Cost & Practical Constraints",Challenges & Impediments,Conditions,1
+Non active communities might hinder SCR efforts,External Dependencies & Environment Constraints,Challenges & Impediments,Conditions,1
+Framework/library dependencies hinder SCR efforts,External Dependencies & Environment Constraints,Challenges & Impediments,Conditions,1
+environment configurations might hinder SCR efforts,External Dependencies & Environment Constraints,Challenges & Impediments,Conditions,1
+Uniform knowledge,Human & Knowledge Factors,Conditionally Factors,Conditions,1
+Resistance to change,Human & Knowledge Factors,Disablers,Conditions,1
+Service oriented computing favors SCR efforts,Language & Architectural Enablers,Enablers,Conditions,1
+Programming language flexibility,Language & Architectural Enablers,Enablers,Conditions,1
+Difficulty in following language evolution,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Language evolution might introduce breaking changes,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Language evolution introducing silent behavior changes,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+New language features might hinder debbuging,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Language evolution triggering hidden regressions,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Upgrading language implementation (compiler) might compromise performance,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Programming language complexity might hinder SCR efforts,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Organizational Influence SCR efforts,Organizational & Managerial Constraints,Conditionally Factors,Conditions,1
+Management approval required,Organizational & Managerial Constraints,Conditionally Factors,Conditions,1
+Keep the systems running and evolutive maintenances are more important than SCR efforts,Organizational & Managerial Constraints,Disablers,Conditions,1
+Company Restrictions may hinder SCR efforts,Organizational & Managerial Constraints,Disablers,Conditions,1
+Companies may not consider SCR efforts Relevant,Organizational & Managerial Constraints,Disablers,Conditions,1
+Language evolution is not that relevante to motivate maintenance efforts,Perceived Relevance & Motivation,Disablers,Conditions,1
+SCR efforts may introduce bugs,"Risk, Uncertainty & Fear Factors",Challenges & Impediments,Conditions,1
+Fear / risk aversion about upgrading,"Risk, Uncertainty & Fear Factors",Challenges & Impediments,Conditions,1
+trustness and reliability in legacy systems may hinder SCR efforts,"Risk, Uncertainty & Fear Factors",Challenges & Impediments,Conditions,1
+code standards might prevent source code rejuvenation efforts,"Standards, Governance & Process Constraints",Challenges & Impediments,Conditions,1
+Feature interactions create unexpected side effects,Technical Debt & System Quality Constraints,Challenges & Impediments,Conditions,1
+Non modular architecture might hinder SCR efforts,Technical Debt & System Quality Constraints,Challenges & Impediments,Conditions,1
+SCR might difficult code understanding,Technical Debt & System Quality Constraints,Challenges & Impediments,Conditions,1
+Lack of code internal quality might hinder SCR efforts,Technical Debt & System Quality Constraints,Challenges & Impediments,Conditions,1
+Reducing cognitive load for newcomers,Code Readability and Expressiveness,Code Quality Improvements,Consequences,1
+Improve code understanding,Code Readability and Expressiveness,Code Quality Improvements,Consequences,1
+Improve code expressiveness,Code Readability and Expressiveness,Code Quality Improvements,Consequences,1
+Lack of SCR may introduce technical debt,Degradation effects,Challenges & Impediments,Consequences,1
+Improve development productivity,Development Productivity improvements,Development Efficiency Gains,Consequences,1
+Improve code maintenance,Maintainability and Testability impacts,Code Quality Improvements,Consequences,1
+Improve code testability,Maintainability and Testability impacts,Code Quality Improvements,Consequences,1
+Improve code standardization,Maintainability and Testability impacts,Code Quality Improvements,Consequences,1
+Improve code performance,Performance and Efficiency,Code Quality Improvements,Consequences,1
+Improve concurrency/asyncronous programming,Performance and Efficiency,Code Quality Improvements,Consequences,1
+Help on bug prevention,Reliability and Correctness,Code Quality Improvements,Consequences,1
+Improve code security,Reliability and Correctness,Code Quality Improvements,Consequences,1
+Delayed adoption of new versions,Adoption Strategy and Timing,Strategic Decision-Making for Rejuvenation,Contingencies,1
+Reactive approach,Adoption Strategy and Timing,Strategic Decision-Making for Rejuvenation,Contingencies,1
+earlier adoption of modern features (even before their official release),Adoption Strategy and Timing,Strategic Decision-Making for Rejuvenation,Contingencies,1
+Relevance of CI/CD to SCR efforts,CI/CD Infrastructure and Continuous Validation,Automating Validation through CI/CD Pipelines,Contingencies,1
+Reducing technical debt,Continuous Technical Debt Management,Execution and Operational Strategies,Contingencies,1
+Company/Team decision-making,Decision-Making and Strategic Evaluation,Strategic Decision-Making for Rejuvenation,Contingencies,1
+Analyse costs/benefits before rejuvenate,Decision-Making and Strategic Evaluation,Strategic Decision-Making for Rejuvenation,Contingencies,1
+Recommendation to stick with LTS versions for complex systems,Decision-Making and Strategic Evaluation,Strategic Decision-Making for Rejuvenation,Contingencies,1
+SCR requires careful planning,Execution Strategy and Effort Management,Execution and Operational Strategies,Contingencies,1
+Incremental SCR effort,Execution Strategy and Effort Management,Execution and Operational Strategies,Contingencies,1
+Manual SCR effort,Execution Strategy and Effort Management,Execution and Operational Strategies,Contingencies,1
+Use code review to recommend adoption of modern features,"Knowledge, Experience, and Team Dynamics",Human and Social Strategies,Contingencies,1
+Team cohesion,"Knowledge, Experience, and Team Dynamics",Human and Social Strategies,Contingencies,1
+Prior knowledge reduces adoption effort,"Knowledge, Experience, and Team Dynamics",Human and Social Strategies,Contingencies,1
+Reliance on static analysis to detect SCR errors,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Using tooling to support and partially automate SCR,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Reviewing tool suggestions before applying changes,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Preferring warnings over automatic changes,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Accepting automated small syntactic changes,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Preferring decision support over full automation,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Reliance on static analysis to detect SCR opportunities,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Tool configurability influencing SCR adoption and control,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Using static analysis recommendations to guide SCR,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+learning through static analysis SCR recommendations,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Tool support limited to trivial SCR,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Lack of tool to help SCR efforts,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+SCR automated tools may introduce bugs,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Lack of trust in programming transformation tools,"Selective, Risk-Aware, and Human-Controlled Use of Tool Support",Tooling Support for Source Code Rejuvenation,Contingencies,1
+Legacy constraint removal enabling SCR,Technical Constraints,Technical and System Constraints,Contingencies,1
+Disabling warnings to keep systems compiling,Technical Constraints,Technical and System Constraints,Contingencies,1

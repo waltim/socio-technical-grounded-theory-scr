@@ -1,0 +1,9 @@
+Context,Unique_quote_occurrences,CSV_File
+Legacy systems / outdated versions,68,legacy_systems_-_outdated_versions.csv
+Maintainability / complexity issues,108,maintainability_-_complexity_issues.csv
+Team productivity / developer experience,47,team_productivity_-_developer_experience.csv
+End-of-life / lack of support,12,end-of-life_-_lack_of_support.csv
+Dependency / library issues,105,dependency_-_library_issues.csv
+Performance limitations,50,performance_limitations.csv
+Security vulnerabilities / risks,18,security_vulnerabilities_-_risks.csv
+Language evolution pressure,52,language_evolution_pressure.csv
