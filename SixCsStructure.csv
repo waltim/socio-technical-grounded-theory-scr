@@ -4,7 +4,7 @@ Minimizing dependency on third-party libraries,Dependency and Architectural Simp
 Framework/libraries dependencies motivate SCR efforts,Dependency and Framework Pressure,Drivers for Source Code Rejuvenation,Causes,5
 language version support discontinuity,Language Evolution Enforcement,Drivers for Source Code Rejuvenation,Causes,9
 bug fixes in the language implementation,Language Evolution Enforcement,Drivers for Source Code Rejuvenation,Causes,1
-Avoiding system obsolescence,Preventing System Obsolescence,Drivers for Source Code Rejuvenation,Causes,14
+Avoiding system obsolescence,System Obsolescence,Drivers for Source Code Rejuvenation,Causes,14
 Relevance of regression/automated testing,Availability of Automated and Regression Testing,Conditionally Factors,Conditions,23
 Backward compatibility constraints hindering SCR,Compatibility & Legacy Constraints,Challenges & Impediments,Conditions,29
 Lack of retrocompatibility might hinder SCR efforts,Compatibility & Legacy Constraints,Challenges & Impediments,Conditions,5
