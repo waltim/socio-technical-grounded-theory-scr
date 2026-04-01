@@ -134,13 +134,6 @@ This repository includes both primary qualitative data and derived analytical ar
 
 Supports transparency, traceability, and reproducibility in empirical software engineering research.
 
-## Citation
-
-Please cite the associated thesis or future DOI release.
-
-## License
-
-To be defined (recommended: MIT for scripts + data usage statement).
 
 ## Contact
 
