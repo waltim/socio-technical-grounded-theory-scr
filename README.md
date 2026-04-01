@@ -64,6 +64,7 @@ The materials in this repository support:
 ├── SixCsStructure.csv
 ├── codes_catalog.xlsx
 ├── getCodebook.py
+└── interviews-protocol-questionnaire.pdf
 ├── memos.md
 ├── merge_quotes_codes.py
 ├── quotations.xlsx
@@ -99,6 +100,10 @@ Derived outputs such as unigram/multiword frequencies, charts, and word clouds.
 ### mining_repository_studies/
 
 This directory contains the primary research papers and supporting artifacts from empirical mining studies. It includes published articles (C++, JavaScript, and Python studies), associated codebooks, and raw survey data. These materials provide complementary quantitative and qualitative evidence on the adoption of modern programming language features and source code rejuvenation practices across different environments.
+
+### interviews-protocol-questionnaire.pdf
+
+Semi-structured interview protocol used to investigate developers’ motivations, challenges, and practices related to source code rejuvenation and programming language evolution.
 
 ## Scripts
 
