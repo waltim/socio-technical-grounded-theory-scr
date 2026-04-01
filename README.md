@@ -5,7 +5,7 @@ This repository contains the empirical materials, qualitative artifacts, and sup
 
 ## Mining Repositories Studies
 
-This section provides links to the empirical mining studies that support the development of the socio-technical grounded theory of source code rejuvenation. Each study includes datasets, scripts, and replication packages available through Zenodo.
+This section provides links to the empirical mining studies that support the development of the socio-technical grounded theory of source code rejuvenation. Each study includes datasets, scripts, and replication packages available through Zenodo and GitHub repositories.
 
 ---
 
