@@ -35,7 +35,7 @@ Large-scale empirical study of 158 JavaScript repositories analyzing the adoptio
 Empirical study of 424 Python open-source projects investigating when and how modern language features are adopted. The study identifies distinct adoption patterns and analyzes motivations (e.g., code comprehension) and challenges (e.g., compatibility constraints) driving rejuvenation efforts.
 
 📄 Paper: *“It Makes the Code Clearer”: Why Developers Adopt Modern Python Features in Open Source Projects*
-🔗 Zenodo: *(https://ssrn.com/abstract=6300278)*
+🔗 Zenodo: *(https://zenodo.org/records/18462376)*
 
 ---
 
