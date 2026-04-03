@@ -20,13 +20,13 @@ Uniform knowledge,Human & Knowledge Factors,Conditionally Factors,Conditions,11
 Resistance to change,Human & Knowledge Factors,Disablers,Conditions,7
 Programming language flexibility,Language & Architectural Enablers,Enablers,Conditions,4
 Service oriented computing favors SCR efforts,Language & Architectural Enablers,Enablers,Conditions,1
-Difficulty in following language evolution,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,5
-Language evolution might introduce breaking changes,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,4
-Upgrading language implementation (compiler) might compromise performance,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,4
-Programming language complexity might hinder SCR efforts,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,4
-Language evolution introducing silent behavior changes,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
-New language features might hinder debbuging,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
-Language evolution triggering hidden regressions,Language Evolution Complexity & Instability,Challenges & Impediments,Conditions,1
+Difficulty in following language evolution,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,5
+Language evolution might introduce breaking changes,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,4
+Upgrading language implementation (compiler) might compromise performance,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,4
+Programming language complexity might hinder SCR efforts,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,4
+Language evolution introducing silent behavior changes,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,1
+New language features might hinder debbuging,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,1
+Language evolution triggering hidden regressions,Unpredictability and Interaction Complexity in Language Evolution,Challenges & Impediments,Conditions,1
 Keep the systems running and evolutive maintenances are more important than SCR efforts,Organizational & Managerial Constraints,Disablers,Conditions,34
 Organizational Influence SCR efforts,Organizational & Managerial Constraints,Conditionally Factors,Conditions,9
 Company Restrictions may hinder SCR efforts,Organizational & Managerial Constraints,Disablers,Conditions,2
