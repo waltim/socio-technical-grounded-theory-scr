@@ -4,7 +4,7 @@ The participant in this code (n=1; P22) discussed automated transformations with
 
 P22 explicitly framed automation as dependent on strong testing guarantees. They stated that “you have to have full coverage of the tests” and that after refactoring, “you have to be certain that the behavior does not change.” The participant directly connected this requirement to regression testing and almost complete test coverage. In their view, this is rarely achieved in industrial projects. This observation introduces a practical constraint. Even if tools exist, organizational and technical preconditions often limit their safe use.
 
-Within this context, P22 differentiated between types of changes. They considered “small syntactic changes” acceptable when they are mechanically verifiable and low risk. The example of adding the `override` keyword in C++ 11 illustrates this point. According to P22, inserting such a keyword with an automatic tool is “almost trivial” and “you hardly can mess up anything with that.” Here, the participant explicitly tied acceptability to trivial detectability and minimal semantic risk. The justification is efficiency. Doing this manually would be “a waste of time.”
+Within this context, P22 differentiated between types of changes. They considered “small syntactic changes” acceptable when they are mechanically verifiable and low risk. The example of adding the override keyword in C++ 11 illustrates this point. According to P22, inserting such a keyword with an automatic tool is “almost trivial” and “you hardly can mess up anything with that.” Here, the participant explicitly tied acceptability to trivial detectability and minimal semantic risk. The justification is efficiency. Doing this manually would be “a waste of time.”
 
 However, the participant drew a firm boundary when discussing higher-level refactorings. Changes such as reorganizing inheritance structures or replacing raw pointers with smart pointers require a “very high-level understanding of the code.” P22 clearly stated that “no tool can do this at the moment.” This does not reject automation entirely. Instead, it introduces a distinction between surface-level syntactic augmentation and semantic restructuring. The former is positioned as safe and pragmatic under test coverage, while the latter demands human judgment.
 
@@ -118,7 +118,7 @@ This code aggregates 29 quotations from four sources: C++ Surveys, JavaScript PR
 
 A dominant pattern appears in the JavaScript pull request discussions. Contributors repeatedly rejected or reverted ES6 and later constructs because the project explicitly supports ES5 or older browser environments. Statements such as “we don't yet support ES2015,” “let is ES6 syntax so this needs to be var,” and “we can’t use arrow syntax because that’s only in ES6” show that modern syntax is consciously avoided. The reason is not aesthetic preference but platform support. Older browsers, legacy environments, or tools such as PhantomJS, Node 4, or Internet Explorer constrain available syntax. In several excerpts, developers even reference compatibility tables or issue numbers to justify reverting to older constructs.
 
-Similarly, Python PR discussions excerpts show constraints tied to supported Python versions. Developers explicitly postponed using f-strings, union syntax with `X | Y`, `yield from`, or newer annotation styles until older Python versions such as 3.5 or 3.6 are dropped. One participant stated, “I’d rather do that when we drop Python 3.5 support.” This phrasing indicates a staged strategy. Adoption becomes possible only after official support for older versions ends.
+Similarly, Python PR discussions excerpts show constraints tied to supported Python versions. Developers explicitly postponed using f-strings, union syntax with X | Y, yield from, or newer annotation styles until older Python versions such as 3.5 or 3.6 are dropped. One participant stated, “I’d rather do that when we drop Python 3.5 support.” This phrasing indicates a staged strategy. Adoption becomes possible only after official support for older versions ends.
 
 The C++ Surveys excerpt reinforces this pattern at the library level. A project maintained compatibility with older Qt versions because a known user depended on Qt 5.6. This decision “prohibited some new constructions from being used.” Here, backward compatibility extends beyond language syntax and includes third-party library ecosystems and user bases.
 
@@ -160,7 +160,7 @@ This code highlights a maintenance-oriented motive within source code rejuvenati
 
 This code contains 5 quotations from JavaScript PR discussions. Across these excerpts, contributors described how established coding standards and project conventions restrict the introduction of modern constructs.
 
-In several quotations, reviewers requested replacing ES6 arrow functions with traditional `function` syntax. The reasons include consistency with the existing codebase and alignment with project style. One contributor stated they “always try to follow the pattern of existing code” and therefore used `var` instead of modern constructs. Another explicitly emphasized that pull requests “should be concise” and avoid unrelated stylistic modernization.
+In several quotations, reviewers requested replacing ES6 arrow functions with traditional function syntax. The reasons include consistency with the existing codebase and alignment with project style. One contributor stated they “always try to follow the pattern of existing code” and therefore used var instead of modern constructs. Another explicitly emphasized that pull requests “should be concise” and avoid unrelated stylistic modernization.
 
 Beyond stylistic consistency, contributors raised concerns about contributor accessibility and readability. One reviewer questioned whether shortened arrow syntax justifies “upping the JavaScript reading level for contributors,” especially when many contributors may not use JavaScript as their primary language. The concern centers on inclusiveness and shared understanding rather than purely technical correctness.
 
@@ -346,11 +346,11 @@ This code includes 6 quotations from 4 sources: C++ Study, JavaScript Study, Pyt
 
 P13 reported using features in experimental versions and adapting code as these features progressed from experimental to stable APIs. The participant framed this as an effort to keep up with the latest tool versions rather than reacting after official release.
 
-The C++ Study excerpt shows that auto-typed variables, lambda expressions, and `decltype` appeared in KDE projects months before the formal release of C++11. This indicates usage aligned with draft or pre-release implementations.
+The C++ Study excerpt shows that auto-typed variables, lambda expressions, and decltype appeared in KDE projects months before the formal release of C++11. This indicates usage aligned with draft or pre-release implementations.
 
-The JavaScript Study excerpts report that several ES6 and later features were used years before their official ECMAScript release versions. Examples include `const`, `let`, arrow functions, async declarations, optional chaining, and others. The text links early usage to browser support that preceded formal standard publication.
+The JavaScript Study excerpts report that several ES6 and later features were used years before their official ECMAScript release versions. Examples include const, let, arrow functions, async declarations, optional chaining, and others. The text links early usage to browser support that preceded formal standard publication.
 
-The Python Study excerpt identified negative time differences between feature release and first appearance in repositories. Formatted string literals and `yield from` appeared in datasets during alpha releases of Python 3.6 and 3.3, respectively.
+The Python Study excerpt identified negative time differences between feature release and first appearance in repositories. Formatted string literals and yield from appeared in datasets during alpha releases of Python 3.6 and 3.3, respectively.
 
 Across these sources, early adoption does not appear accidental. Developers integrated features during alpha or beta stages or when partial platform support existed. This reflects proactive experimentation and willingness to work with evolving implementations prior to final standardization.
 
@@ -574,7 +574,7 @@ Participants highlighted features such as smart pointers, enhanced for loops, la
 
 P08 described null safety as preventing null pointer exceptions at compile time. P05 discussed Java’s try-with-resources mechanism as preventing resource leaks. P16 emphasized type-restricted collections that prevent inserting incorrect object types and allow compile-time error detection.
 
-Python PR discussions excerpts showed reviewers recommending keyword-only arguments, async/await, type annotations, and `yield from` to prevent incorrect calls, improve exception handling, and enforce type checking.
+Python PR discussions excerpts showed reviewers recommending keyword-only arguments, async/await, type annotations, and yield from to prevent incorrect calls, improve exception handling, and enforce type checking.
 
 P03 and C++ Surveys mentioned improved readability and conciseness as factors that reduce mistakes. P20 described range-based loops as preventing incorrect index usage.
 
@@ -1254,7 +1254,7 @@ Participants: JavaScript PR discussions, P24, P26
 
 This code contains 1 quotation from 1 participant: P11.
 
-P11 distinguished between simple and complex language features in terms of debugging impact. Functional constructs such as `map` were adopted immediately and described as straightforward improvements over traditional loops. In contrast, features related to concurrency, threading, and parallel computation were approached with caution.
+P11 distinguished between simple and complex language features in terms of debugging impact. Functional constructs such as map were adopted immediately and described as straightforward improvements over traditional loops. In contrast, features related to concurrency, threading, and parallel computation were approached with caution.
 
 The participant emphasized that debugging concurrent or metaprogramming-related features can be difficult. Runtime errors may appear without clear traceability, and debugging tools may provide limited assistance. The example of Ruby metaprogramming illustrates this concern. Although described as powerful and attractive, it was also characterized as difficult to debug when issues arise.
 
@@ -1354,7 +1354,7 @@ Total quotations in this code: 2
 
 This code contains 1 quotation from 1 participant: P22.
 
-P22 described the development of a tool focused on strong typing refactoring. The example illustrates replacing generic types, such as `double` or `string`, with semantically meaningful domain-specific types, such as hostname or family name. The goal is to prevent accidental misuse of interchangeable primitive types and increase code safety.
+P22 described the development of a tool focused on strong typing refactoring. The example illustrates replacing generic types, such as double or string, with semantically meaningful domain-specific types, such as hostname or family name. The goal is to prevent accidental misuse of interchangeable primitive types and increase code safety.
 
 The participant emphasized that fully automatic transformation is not always feasible or desirable. Introducing stronger types requires addressing multiple consequences, such as implementing concatenation behavior, adjusting output functions, and resolving function signatures that previously accepted interchangeable parameters. These changes create branching decisions that cannot be resolved purely algorithmically.
 
@@ -1742,7 +1742,7 @@ Total quotations in this code: 4
 Total participants in this code: 3  
 Participants: JavaScript PR discussions, P13, P24
 
-# **Memo on “Reliance on static analysis to detect SCR errors”**
+# **Memo on “Reliance on static analysis to detect source code rejuvenation opportunities”**
 
 This code contains 2 quotations from 2 participants: P03 and P10.
 
@@ -1783,6 +1783,24 @@ Across quotations, static analysis tools serve two complementary roles: they ide
 Total quotations in this code: 14  
 Total participants in this code: 7  
 Participants: C++ Surveys, Python PR discussions, P04, P05, P10, P11, P20
+
+### **Memo on “Using tooling to support and partially automate SCR”**
+
+This code contains **11 quotations from 4 participants**: C++ Survey, P07, P08, P23, and P26). Participants consistently framed tooling as a mechanism to **support and partially automate SCR**, rather than fully replace manual effort. P07 and P08 argued that tools are useful to **accelerate repetitive and large-scale transformations**, particularly by identifying refactoring opportunities and reducing manual workload.
+
+P23 emphasized that tooling should be treated as an **assistive layer**, requiring developers to actively review and guide changes. Similarly, P26 highlighted that automation is typically limited to **low-risk and well-understood transformations**, reinforcing that developers retain control over critical decisions.
+
+Across multiple quotations (including recurring evidence from 31-JSEP-CodeBook), tooling is positioned as a **complement to developer expertise**, not a substitute. Automation is leveraged to improve efficiency, but developers consistently validate, adjust, or reject tool-generated outputs.
+
+A clear pattern emerges where developers adopt a **hybrid execution model**, combining automation with manual oversight. Tooling is selectively applied based on the nature of the task, being preferred for deterministic and localized changes while avoided in complex or semantically sensitive scenarios.
+
+Partial automation in SCR is therefore not about replacing developers, but about **augmenting their capabilities**, enabling more scalable and efficient rejuvenation while maintaining human control.
+
+### **Memo metrics**
+
+**Total quotations in this code:** 11  
+ **Total participants in this code:** 4  
+ **Participants:** P07, P08, P23, P26
 
 # **Memo on “Resistance to change”**
 
@@ -1896,7 +1914,7 @@ Several quotations highlighted the tension between expressiveness and readabilit
 
 P24 similarly reported that developers sometimes struggle to understand code written using newer constructs. When some team members adopt modern patterns while others are unfamiliar with them, disagreements may emerge regarding code readability.
 
-Participants from survey and pull-request discussions expressed comparable concerns. For example, some developers considered certain modern features, such as the `auto` keyword in C++, confusing because the type of variables becomes less explicit.
+Participants from survey and pull-request discussions expressed comparable concerns. For example, some developers considered certain modern features, such as the auto keyword in C++, confusing because the type of variables becomes less explicit.
 
 Pull request discussions also showed hesitation toward adopting constructs such as arrow functions when contributors believed they might increase the cognitive burden for developers unfamiliar with the syntax.
 
@@ -1994,7 +2012,7 @@ Total quotations in this code: 4
 Total participants in this code: 4  
 Participants: P01, P14, P20, P24
 
-# **Memo on “Tool configuration”**
+# **Memo on “Tool configurability influencing source code rejuvenation adoption and control”**
 
 This code contains 7 quotations from 6 participants: P01, P02, P05, P11, P22, and P23.
 
