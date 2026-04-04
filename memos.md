@@ -68,7 +68,7 @@ This code therefore captures how technical criticality constrains rejuvenation. 
 
 * Participants: P12
 
-**Memo on “avoid system obsolescence”**
+**Memo on “Avoiding system obsolescence”**
 
 This code includes 14 quotations from 11 participants. Across these excerpts, participants framed rejuvenation as a way to prevent systems from becoming outdated, unsupported, or progressively harder to maintain.
 
