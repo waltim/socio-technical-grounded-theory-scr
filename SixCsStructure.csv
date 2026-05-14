@@ -71,5 +71,6 @@ Team cohesion,"Knowledge, Experience, and Team Dynamics",Human and Social Strate
 Prior knowledge reduces adoption effort,"Knowledge, Experience, and Team Dynamics",Human and Social Strategies,Contingencies,2
 Reliance on static analysis to detect SCR opportunities,Selective and Human-Controlled Use of Tool Support,Tooling Support for Source Code Rejuvenation,Contingencies,14
 Using tooling to support and partially automate SCR,Selective and Human-Controlled Use of Tool Support,Tooling Support for Source Code Rejuvenation,Contingencies,11
+LLM-based support for source code rejuvenation,Selective and Human-Controlled Use of Tool Support,Tooling Support for Source Code Rejuvenation,Contingencies,11
 Legacy constraint removal enabling SCR,Managing Technical Constraints and Compatibility,Handling Technical and System Constraints,Contingencies,2
 Disabling warnings to keep systems compiling,Managing Technical Constraints and Compatibility,Handling Technical and System Constraints,Contingencies,1
