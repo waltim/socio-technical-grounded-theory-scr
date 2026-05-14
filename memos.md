@@ -2335,3 +2335,35 @@ Across this quotation, rejuvenation appears as an activity occasionally driven b
 Total quotations in this code: 1  
 Total participants in this code: 1  
 Participants: C++ Surveys
+
+**Memo on “LLM-based support for source code rejuvenation”**
+
+This memo includes 11 unique quotations from four participants: P26, P27, P28, and P29. 
+
+The coded excerpts address how developers perceive LLM-based tools in software development and, more specifically, in relation to source code evolution and source code rejuvenation.
+
+The interview data further nuance this interpretation by showing that developers perceive LLM-based tools not only as transformation mechanisms, but also as comprehension-oriented support for source code rejuvenation. P26 reported using LLMs to understand differences between older and newer language idioms. In the example of React and JavaScript, P26 described moving from class-based code and bindings to newer structures involving arrow functions and hooks. However, P26 explicitly stated that the LLM was not used as a migration tool. Instead, it was used to understand what was different between versions, after which the participant manually replicated the understanding in other places.
+
+P27 presented a similar pattern, but focused on legacy code comprehension. P27 described using an LLM to inspect confusing legacy code and ask what it meant in order to understand what was happening. The same participant also mentioned receiving suggestions for improvement and possible code updates, but clarified that they had not used the tool in the sense of asking it to “update this code for me.” In these cases, LLMs support sensemaking and decision-making rather than fully automating migration.
+
+At the same time, participants expressed cautious and ambivalent perceptions of LLM-based support. P27 associated LLMs with substantial productivity gains, faster ticket resolution, and support for broader development activities. According to P27, developers using LLMs could produce the equivalent of multiple developers without LLMs, and the number of solved tickets increased significantly. P27 also described LLMs as supporting tests, integration, pipeline execution, deployment, environment creation, and other structural development tasks, shifting developers toward a more business-focused orchestration role.
+
+However, P28 and P29 emphasized limited reliability, especially for complex development work. P28 stated that LLM-generated results often required many changes before implementation, which led the participant to prefer manual work. P29 argued that LLMs can be useful for simple or trivial tasks, such as CSS or simple front-end work, but tend to fail in more complex scenarios. P29 also suggested that generic AI tools may not reach the same performance as specialized tools, recommending that research on AI for code improvement and language evolution should initially specify a language rather than attempt a generic upgrade mechanism.
+
+Several participants also stressed that AI-generated code often requires human adaptation to improve readability, align with project conventions, and preserve correctness. P27 stated that code created by AI or IDE tools still needs to be improved to become more legible and more consistent with the team’s style. This reinforces the human-in-the-loop character of tool-supported source code rejuvenation.
+
+The data also indicate that risk awareness around LLMs extends beyond technical correctness. P28 raised concerns about exposing confidential source code and banking data to external LLM services, arguing that there may be privacy problems because these tools collect data. P29 similarly warned that placing code in AI tools may expose internal problems and create risks related to training data. These excerpts show that LLM-related risk is not only about incorrect transformations or poor output quality, but also about confidentiality, data protection, business logic exposure, and organizational policy.
+
+Moreover, trust in LLM-generated output appears to be mediated by developer experience. P27 described a generational difference: younger developers in the team tend to trust LLMs more fully, while P27 prefers to maintain human intervention in the coding process. P29 was more critical, arguing that excessive reliance on AI may inhibit foundational programming skills, especially among junior or mid-level developers who may become unable to perform basic tasks without Copilot. P29 compared AI to an improved Stack Overflow: faster and useful in some contexts, but risky when copied without understanding.
+
+Across these quotations, participants do not describe LLMs as autonomous replacements for developer-led rejuvenation. Instead, they frame LLM-based support as useful for understanding language evolution, interpreting legacy code, generating suggestions, accelerating implementation, creating tests, and supporting surrounding development infrastructure. However, these benefits are constrained by reliability limitations, task complexity, confidentiality concerns, overreliance risks, and the need for experienced human review.
+
+Therefore, LLM-based support converges with the broader pattern of selective, risk-aware, and human-controlled tool use. It extends traditional tool support by offering more interactive and context-aware assistance, but it does not eliminate the need for human oversight. The developers remain responsible for understanding the code context, evaluating the generated output, adapting suggestions to local conventions, validating correctness, and deciding whether a suggested change is appropriate for source code rejuvenation.
+
+**Memo metrics**
+
+Total unique quotations in this memo: 11
+
+Total participants in this memo: 4
+
+Participants: P26, P27, P28, P29
